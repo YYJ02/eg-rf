@@ -1,0 +1,77 @@
+body {
+  margin-top: 105px;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff;
+}
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+.info-header {
+  width: 60%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+}
+
+.info-services {
+  width: 75%;
+  margin: auto;
+}
+
+.home-header {
+  width: 60%;
+  margin: auto;
+  border-bottom: 1px #fff solid;
+}
+
+.home-heading {
+  position: relative;
+  min-height: 600px;
+  background: url("../img/bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+@media (max-width: 599px) {
+  .google-maps {
+    position: relative;
+    padding-bottom: 75%; /* 此為地圖長寬比 */
+    height: 0;
+    overflow: hidden;
+  }
+  .google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .logo-size {
+    width: 100px;
+    height: 34px;
+  }
+  .title-size {
+    width: 141px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px;
+  }
+  #showcase h1 {
+    font-size: 4rem;
+  }
+  .mb-resp {
+    margin-bottom: 1rem;
+  }
+}
